@@ -1,0 +1,188 @@
+header{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#headerNav{
+    display:flex;
+    padding:20px;
+}
+
+#cocoLogo{
+    justify-content:left;
+    background-image: url("#");
+    color: #38808F;
+    font-weight:300;
+    font-size:3Vh;
+    width:75%;
+    font-family: 'Playfair Display', serif;
+}
+#cocoLogo:hover{
+    color:#FBE0D3;
+    transition: 0.5s;
+}
+
+body{
+    background-color:#F7F6F3;
+}
+.navLinks a {
+    height:50px;
+    display:flex;
+    width:25%;
+    align-self:right;
+    color:#ACC3D1;
+    font-size: 2vw;
+}
+.aboutCoco h2{
+    font-family: 'Playfair Display', serif;
+    font-size:36px;
+    color:#ACC3D1;
+}
+header a{
+    color:#ACC3D1;
+    padding:10px;
+
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+
+a:hover{
+    color:#38808F;
+    text-decoration: underline;
+}
+.aboutCoco{
+
+    display:flex;
+    align-content:center;
+    background:no-repeat;
+    background-position:center;
+    justify-content:space-around;
+
+}
+.Courtney{
+    margin-top: 15px;
+    width:55%;
+    padding:20px 40px;
+    text-align:center;
+
+
+}
+.aboutMe{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    background:no-repeat;
+    background-position:center;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    color:#666b66;
+}
+b{
+    font-family:'Montserrrat',sans-serif;
+    font-weight:100px;
+}
+
+.myWork{
+    margin: 0px 15%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+    "LNFY LNFY"
+    "Venture Fetch"
+    "Final Final"
+    "Illos Product"
+
+}
+
+
+.projectGridArea {
+    display:flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+
+  }
+
+#projectLNFY{
+    grid-area: LNFY;
+    border-bottom: 5px solid firebrick;
+    background-color:blue; 
+}
+
+#projectVenture{
+    grid-area: Venture;
+    border-bottom: 5px solid darkmagenta;
+    background-color:red;
+}
+
+#projectFetch{
+    grid-area: Fetch;
+    border-bottom: 5px solid #38808F;
+
+    background-color:green;
+     
+}
+#projectFinal{
+    grid-area:Final;
+    border-bottom: 5px solid forestgreen;
+    background-color:yellow;
+
+}
+
+#projectProductDesign{
+    grid-area: Product;
+    border-bottom: 5px solid forestgreen;
+    background-color: fuchsia;
+
+}
+#projectIllustration{
+    grid-area: Illos;
+    border-bottom: 5px solid #FF6200;
+    background-color: aqua;
+}
+.projectGrid Area {
+    background-color: rgba(255,255,255,0.8);
+    border-bottom: 5px solid #FF6200;
+    position: absolute;
+    right: -50px;
+    top: 100px;
+    padding: 25px;
+    max-width: 550px;
+    z-index: 100;
+}
+.heading {
+    Font-family: 'Montserrat',sans-serif;
+    color: black;
+    font-size: 20px;
+  }
+.projType{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    color: black;
+    padding-top: 2 px;
+}
+.heading p{
+    max-width: 350px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 0px;
+    color: #636364;
+}
+
+
+
+
+
+  
