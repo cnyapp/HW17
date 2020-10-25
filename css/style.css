@@ -98,7 +98,7 @@ b{
     "LNFY LNFY"
     "Venture Fetch"
     "Final Final"
-    "Illos Product"
+    "Product Illos"
 
 }
 
@@ -117,17 +117,20 @@ b{
 
 #projectLNFY{
     grid-area: LNFY;
-    background-color:blue; 
+    background-image: url("../img/Computer\ Screen-01.png");
+    position: relative;
 }
 
 #projectVenture{
     grid-area: Venture;
-    background-color:red;
+    background-image: url("../img/Venture_InHand-05.png");
+    position: relative;
 }
 
 #projectFetch{
     grid-area: Fetch;
-    background-color:green;
+    background-image: url("../img/FETCH-InHand.jpg");
+    position: relative;
      
 }
 #projectFinal{
@@ -138,7 +141,8 @@ b{
 
 #projectProductDesign{
     grid-area: Product;
-    background-color: fuchsia;
+    background-image: url("../img/mudpie_aprons.jpg");
+    position: relative;
 
 }
 #projectIllustration{
@@ -146,7 +150,7 @@ b{
     background-color: aqua;
 }
 .heading {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.85);
     height: fit-content;
     color: black;
     
@@ -157,16 +161,18 @@ b{
 
 .titleBox h2{
     font-family: 'Playfair Display', serif;
-    font-size:4vh;
+    font-size:3vh;
     color:#253746;
-    line-height:.25em;
+    padding:0;
+    margin:0;
 }
 
 
 .titleBox p{
     font-family: 'Montserrat',sans-serif;
-    font-size:2vh;
-    line-height:1.25em;
+    font-size:2.5vh;
+    margin:0;
+    padding:0;
 
 }
 .projType{
@@ -198,7 +204,11 @@ footer{
     font-family: 'Montserrat',sans-serif;
     font-size: 12px;
     color:gray;
+    padding-top:50px;
     
+}
+.socialIcons{
+    height:2vh;
 }
 .socialIcons a{
     transition: 0.3s;
