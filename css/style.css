@@ -112,77 +112,100 @@ b{
     cursor: pointer;
     display: grid;
     align-content: end;
-
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19)
   }
 
 #projectLNFY{
     grid-area: LNFY;
-    border-bottom: 5px solid firebrick;
     background-color:blue; 
 }
 
 #projectVenture{
     grid-area: Venture;
-    border-bottom: 5px solid darkmagenta;
     background-color:red;
 }
 
 #projectFetch{
     grid-area: Fetch;
-    border-bottom: 5px solid #38808F;
-
     background-color:green;
      
 }
 #projectFinal{
     grid-area:Final;
-    border-bottom: 5px solid forestgreen;
     background-color:yellow;
 
 }
 
 #projectProductDesign{
     grid-area: Product;
-    border-bottom: 5px solid forestgreen;
     background-color: fuchsia;
 
 }
 #projectIllustration{
     grid-area: Illos;
-    border-bottom: 5px solid #FF6200;
     background-color: aqua;
 }
-.projectGrid Area {
-    background-color: rgba(255,255,255,0.8);
-    border-bottom: 5px solid #FF6200;
-    position: absolute;
-    right: -50px;
-    top: 100px;
-    padding: 25px;
-    max-width: 550px;
-    z-index: 100;
-}
 .heading {
-    Font-family: 'Montserrat',sans-serif;
+    background-color: rgba(255,255,255,0.7);
+    height: fit-content;
     color: black;
-    font-size: 20px;
+    
   }
+.titlebox{
+    padding-left: 10px;
+}
+
+.titleBox h2{
+    font-family: 'Playfair Display', serif;
+    font-size:4vh;
+    color:#253746;
+    line-height:.25em;
+}
+
+
+.titleBox p{
+    font-family: 'Montserrat',sans-serif;
+    font-size:2vh;
+    line-height:1.25em;
+
+}
 .projType{
     font-family: 'Montserrat',sans-serif;
     font-size: 12px;
     color: black;
     padding-top: 2 px;
-}
-.heading p{
-    max-width: 350px;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0px 0px;
-    color: #636364;
+
 }
 
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
 
 
+}
+
+.footertext p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight:900;
+
+}
+
+.cocoCopyright{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    color:gray;
+    
+}
+.socialIcons a{
+    transition: 0.3s;
+}
+.socialIcons a:hover{
+    opacity: 50%;
+}
 
 
   
